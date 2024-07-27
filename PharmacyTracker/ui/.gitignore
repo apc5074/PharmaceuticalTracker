@@ -8,6 +8,7 @@
 
 # node
 /ui/node_modules
+/backend/node_modules
 /ui/npm-debug.log
 /ui/yarn-error.log
 
