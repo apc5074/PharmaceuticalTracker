@@ -52,6 +52,7 @@ app.get("/api/get-studies", async (req, res) => {
       nextPageToken = json.nextPageToken || "";
     } while (nextPageToken);
 
+    console.log(statusesFinal);
     res.send(statusesFinal);
   } catch (error) {
     console.error("Error fetching or processing data:", error);
